@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "911421377956",
+    "project_id": "student-mgmt-d0c5e",
+    "storage_bucket": "student-mgmt-d0c5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911421377956:android:ee80b39c32e9fd1d0e4531",
+        "android_client_info": {
+          "package_name": "com.example.exp11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLCUvDJMImdTNo_hkluJkIJ7LzUid3rNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

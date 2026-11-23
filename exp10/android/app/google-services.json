@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "407645698872",
+    "project_id": "chatwave-e635d",
+    "storage_bucket": "chatwave-e635d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407645698872:android:ab4dd323256b161af99fcd",
+        "android_client_info": {
+          "package_name": "com.example.exp10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407645698872-sncp6qem3rmidik8f03574ofne19bc6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXXseSIbUlP2jSP40fABjy_BU4HQUpGTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407645698872-sncp6qem3rmidik8f03574ofne19bc6u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "407645698872-pm42hv7u72q455212s4c5k7rrffjvvm3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.exp10"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

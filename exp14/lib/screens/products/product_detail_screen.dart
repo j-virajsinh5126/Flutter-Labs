@@ -1,0 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import '../../models/product.dart';
+
+class ProductDetailScreen extends StatelessWidget {
+  const ProductDetailScreen({super.key,required this.product}); final Product product;
+  @override Widget build(BuildContext context)=>Scaffold(appBar:AppBar(title:const Text('Product details')),body:SafeArea(child:ListView(padding:const EdgeInsets.all(20),children:[SizedBox(height:300,child:Image.network(product.image,fit:BoxFit.contain,errorBuilder:(_,__,___)=>const Icon(Icons.image_not_supported,size:80))),const SizedBox(height:20),Text(product.category.toUpperCase(),style:TextStyle(color:Theme.of(context).colorScheme.primary,fontWeight:FontWeight.bold,letterSpacing:1)),const SizedBox(height:8),Text(product.title,style:const TextStyle(fontSize:23,fontWeight:FontWeight.bold)),const SizedBox(height:10),Row(children:[const Icon(Icons.star_rounded,color:Colors.amber),Text(' ${product.rating.toStringAsFixed(1)} · ${product.ratingCount} reviews')]),const SizedBox(height:16),Text('\$${product.price.toStringAsFixed(2)}',style:TextStyle(fontSize:26,fontWeight:FontWeight.bold,color:Theme.of(context).colorScheme.primary)),const SizedBox(height:18),const Text('Description',style:TextStyle(fontSize:18,fontWeight:FontWeight.bold)),const SizedBox(height:8),Text(product.description,style:const TextStyle(height:1.5)),const SizedBox(height:24),FilledButton.icon(onPressed:()=>ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content:Text('Cart functionality is coming in the next batch.'))),icon:const Icon(Icons.add_shopping_cart),label:const Text('Add to cart')),TextButton(onPressed:()=>context.pop(),child:const Text('Continue shopping'))])));
+}
